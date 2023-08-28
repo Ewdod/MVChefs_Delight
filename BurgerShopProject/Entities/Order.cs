@@ -10,6 +10,12 @@ namespace BurgerShopProject.Entities
         private readonly List<Sauce> _sauces;
         private readonly AppUser _appUser;
 
+
+        public Order()
+        {
+            
+        }
+
         public Order(List<Burger> burgers, List<SideProduct> sideProducts, List<Beverages> beverages, List<Sauce> sauces, AppUser appUser)
         {
             _burgers = burgers;
