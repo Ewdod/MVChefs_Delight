@@ -19,6 +19,8 @@ namespace BurgerShopProject.Entities
         // buradaki kodlari gerekirse tekrardan ac
 
         public List<Order> Orders { get; set; } = new();
+        public List<Menu> Menus { get; set; } = new();
+
 
     }
 }

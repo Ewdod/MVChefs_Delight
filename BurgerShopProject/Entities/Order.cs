@@ -4,11 +4,11 @@ namespace BurgerShopProject.Entities
 {
     public class Order : Base
     {
-        private readonly List<Burger> _burgers;
-        private readonly List<SideProduct> _sideProducts;
-        private readonly List<Beverages> _beverages;
-        private readonly List<Sauce> _sauces;
-        private readonly AppUser _appUser;
+        public List<Burger> _burgers { get; set; } = new();
+        public List<SideProduct> _sideProducts { get; set; } = new();
+        public List<Beverages> _beverages { get; set; } = new ();
+        public List<Sauce> _sauces { get; set; } = new();
+        public AppUser _appUser { get; set; } = new();
 
 
         public Order()
